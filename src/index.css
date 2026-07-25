@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-primary-50: #eef8ff;
+  --color-primary-100: #d9efff;
+  --color-primary-200: #bce4ff;
+  --color-primary-300: #8ed3ff;
+  --color-primary-400: #59baff;
+  --color-primary-500: #329fff;
+  --color-primary-600: #1b80f5;
+  --color-primary-700: #1366d6;
+  --color-primary-800: #1452ab;
+  --color-primary-900: #154687;
+  --color-primary-950: #102c56;
+}
+
+@layer base {
+  html:lang(en) {
+    font-family: 'Outfit', sans-serif;
+  }
+  
+  html:lang(ar) {
+    font-family: 'Cairo', sans-serif;
+  }
+}
+
